@@ -13,7 +13,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  results_array = [
+  results = [
     {name: "Don Gately", occupation: "Live-in Staff"},
     {name: "Joelle van Dyne", occupation: "Radio Personality"},
     {name: "Pat Monteseian", occupation: "Staff"},
@@ -23,7 +23,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  results_array[2][:name] = "Pat Monteseian"
+  results[2][:name] = "Pat Monteseian"
 end
 
 def aoh_update(aoh, row, key, new_value)
