@@ -13,7 +13,7 @@ def assembled_aoh
 end
 
 def literal_aoh
-  results = [
+  results_array = [
     {name: "Don Gately", occupation: "Live-in Staff"},
     {name: "Joelle van Dyne", occupation: "Radio Personality"},
     {name: "Pat Monteseian", occupation: "Staff"},
@@ -23,6 +23,14 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+   results_array = [
+    {name: "Don Gately", occupation: "Live-in Staff"},
+    {name: "Joelle van Dyne", occupation: "Radio Personality"},
+    {name: "Pat Monteseian", occupation: "Staff"},
+    {name: "Kate Gompert", occupation: "None"},
+    {name: "Bruce Green", occupation: "Fan of Mildred"}
+    ]
+    
   results[2][:name] = "Pat Monteseian"
 end
 
